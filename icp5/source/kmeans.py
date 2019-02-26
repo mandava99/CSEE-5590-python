@@ -45,5 +45,5 @@ LABEL_COLOR_MAP = {0 : 'y',
                    }
 label_color = [LABEL_COLOR_MAP[l] for l in km.predict(X_scaled)]
 plt.scatter(X_scaled_array[:, 0], X_scaled_array[:, 1], c=label_color)
-plt.title("clustered based on 5, 6, 7, 8 columns")
+plt.title("clustered based on Top10perc, Top25perc, F.Undergrad,P.Undergrad columns")
 plt.show()
