@@ -1,0 +1,2 @@
+Mean is the better option for filling the null values in the given dataset 
+or else we can fill the null values with nearest neighbours by calculating the euclidian distance
